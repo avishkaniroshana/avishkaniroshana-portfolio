@@ -13,7 +13,7 @@ const TopNavbar = () => {
           to="/"
           className="text-lg font-bold text-blue-600 dark:text-blue-400 px-2 py-1 hover:bg-gray-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
         >
-          avishkaniroshana.me
+          avishkaniroshana.dev
         </NavLink>
 
         {/* Right actions */}
