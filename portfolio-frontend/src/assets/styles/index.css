@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* coustom  */
+
+@import "./base.css";
+@import "./components.css";
+@import "./dark-mode.css";
+@import "./utilities.css";

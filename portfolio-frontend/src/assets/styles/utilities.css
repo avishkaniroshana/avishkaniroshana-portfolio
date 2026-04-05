@@ -1,0 +1,20 @@
+@layer utilities {
+    .scrollbar-thin::-webkit-scrollbar {
+        width: 6px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+        background: #3b82f6;
+        border-radius: 3px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+        background: #60a5fa;
+    }
+    .glass {
+        backdrop-filter: blur(12px);
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}
