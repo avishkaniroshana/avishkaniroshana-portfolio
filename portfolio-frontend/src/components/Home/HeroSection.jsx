@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../common/Button";
 
 const HeroSection = () => {
@@ -43,11 +44,11 @@ const HeroSection = () => {
 
       {/* CTA */}
       <div className="flex gap-4 mt-2">
-        <a href="/projects">
+        <Link to="/projects">
           <Button className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 hover:bg-gray-900 dark:hover:bg-gray-800 hover:text-white font-semibold px-7 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-gray-600 shadow hover:shadow-lg transition-all duration-300">
             View Projects
           </Button>
-        </a>
+        </Link>
       </div>
     </section>
   );
