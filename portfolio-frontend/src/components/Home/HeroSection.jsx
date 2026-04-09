@@ -6,7 +6,6 @@ const HeroSection = () => {
 
   return (
     <section className="w-full flex flex-col items-center text-center py-16 gap-6">
-
       {/* Profile Image */}
       <div className="relative rounded-full p-1 animate-border-glow-light dark:animate-border-glow-dark">
         <img
@@ -30,16 +29,16 @@ const HeroSection = () => {
         <span className="font-semibold text-gray-900 dark:text-white">
           Software Engineer
         </span>{" "}
-        with strong expertise in{" "}
+        specializing in backend development with strong expertise in{" "}
         <span className="font-medium text-yellow-600 dark:text-yellow-400">
-          Spring Boot
-        </span>{" "}
-        and hands-on experience building modern frontends using{" "}
+          Java Spring Boot
+        </span>{". "}
+        Passionate about building scalable, secure systems, with working
+        knowledge of{" "}
         <span className="font-medium text-blue-600 dark:text-blue-400">
           React
-        </span>
-        . Passionate about developing scalable, secure, and user-friendly
-        full-stack applications.
+        </span>{" "}
+        for full-stack integration.
       </p>
 
       {/* CTA */}

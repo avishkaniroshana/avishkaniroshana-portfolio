@@ -43,17 +43,12 @@ const certifications = [
     file: "/assets/docs/certificates/Avishka_Python_for_Beginners_E-Certificate.pdf",
   },
   {
-    title: "SLIIT AIML Engineer – Stage",
-    issuer: "SLIIT",
-    file: "/assets/docs/certificates/Avishka_SLIIT_AIML_EngineerStage1.pdf",
-  },
-  {
     title: "Certificate in Computer Networking",
     issuer: "Technical College - Bandarawela",
     file: "/assets/docs/certificates/Net_Certificate_KANP.pdf",
   },
   {
-    title: "Certificate of Praticipation - 2025 Azure Session Series",
+    title: "Certificate of Participation - 2025 Azure Session Series",
     issuer: "ICTSC - University of Ruhuna",
     file: "/assets/docs/certificates/ICTSC_KANP.pdf",
   },

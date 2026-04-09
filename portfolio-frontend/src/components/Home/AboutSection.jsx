@@ -7,7 +7,6 @@ const highlights = [
 const AboutSection = () => {
   return (
     <section className="w-full bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-gray-100 dark:border-slate-800 p-8 md:p-12 relative overflow-hidden">
-
       {/* Decorative gradient blob */}
       <div className="pointer-events-none absolute top-0 right-0 w-72 h-72 rounded-full bg-teal-100/50 dark:bg-teal-900/10 blur-3xl" />
 
@@ -32,22 +31,33 @@ const AboutSection = () => {
 
       {/* Grid: Bio + Education */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-
         {/* Left — Bio */}
         <div className="space-y-4">
           <p className="text-[15px] text-gray-600 dark:text-gray-400 leading-relaxed font-light">
-            <span className="font-semibold text-gray-900 dark:text-white">Software Engineer</span>{" "}
-            with strong expertise in{" "}
-            <span className="font-medium text-yellow-600 dark:text-yellow-400">Spring Boot</span>{" "}
-            and hands-on experience building modern frontends using{" "}
-            <span className="font-medium text-blue-600 dark:text-blue-400">React</span>.
-            Passionate about developing scalable, secure, and user-friendly full-stack applications.
+            <span className="font-semibold text-gray-900 dark:text-white">
+              Software Engineer
+            </span>{" "}
+            specializing in backend development with strong expertise in{" "}
+            <span className="font-medium text-yellow-600 dark:text-yellow-400">
+              Java Spring Boot
+            </span>{" "}
+            . Experienced in designing and building scalable, secure, and
+            high-performance APIs and systems. Familiar with modern frontend
+            technologies like{" "}
+            <span className="font-medium text-blue-600 dark:text-blue-400">
+              React
+            </span>{" "}
+            to support full-stack application development.
           </p>
 
           <p className="text-[15px] text-gray-600 dark:text-gray-400 leading-relaxed font-light">
-            I enjoy transforming complex requirements into intuitive user experiences, developing{" "}
-            <span className="font-medium text-gray-800 dark:text-gray-200">RESTful APIs</span>,
-            integrating databases, and delivering responsive interfaces that perform efficiently across devices.
+            I enjoy transforming complex requirements into intuitive user
+            experiences, developing{" "}
+            <span className="font-medium text-gray-800 dark:text-gray-200">
+              RESTful APIs
+            </span>{" "}
+            , integrating databases, and delivering responsive interfaces that
+            perform efficiently across devices.
           </p>
 
           {/* Divider */}
@@ -56,7 +66,10 @@ const AboutSection = () => {
           {/* Highlights */}
           <ul className="space-y-2.5">
             {highlights.map((item, i) => (
-              <li key={i} className="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400">
+              <li
+                key={i}
+                className="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400"
+              >
                 <span className="mt-[6px] w-1.5 h-1.5 rounded-full bg-teal-600 dark:bg-teal-400 shrink-0" />
                 {item}
               </li>
@@ -80,7 +93,8 @@ const AboutSection = () => {
               BSc (Hons) in Information &amp; Communication Technology
             </h3>
             <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
-              Faculty of Technology<br />
+              Faculty of Technology
+              <br />
               University of Ruhuna
             </p>
             <span className="inline-flex items-center gap-1.5 mt-4 text-xs font-medium text-teal-700 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20 border border-teal-200 dark:border-teal-800 rounded-md px-3 py-1">
