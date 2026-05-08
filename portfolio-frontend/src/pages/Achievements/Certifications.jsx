@@ -63,7 +63,7 @@ const certifications = [
     file: "/assets/docs/certificates/Certificate_English_UOS_KANP.pdf",
   },
   {
-    title: "Deploma Foundation in English & Communication",
+    title: "Diploma Foundation in English & Communication",
     issuer: "IBA CAMPUS ",
     file: "/assets/docs/certificates/IBA_English_KANP.pdf",
   },
