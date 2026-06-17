@@ -51,8 +51,7 @@ const projects = [
       "React + SockJS | STOMP.js",
       "MongoDB",
     ],
-    github:
-      "https://github.com/avishkaniroshana/Chat-application-springboot",
+    github: "https://github.com/avishkaniroshana/Chat-application-springboot",
     live: "",
   },
 
@@ -84,7 +83,7 @@ const projects = [
     ],
     tech: ["React", "Spring Boot", "MySQL", "Tailwind"],
     github: "https://github.com/avishkaniroshana/Rajawarama-Shop",
-    live: "http://20.188.113.189/",
+    live: "https://rajawarama-shop.vercel.app/",
   },
 ];
 
