@@ -29,7 +29,7 @@ const TopNavbar = () => {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/avishka-niroshana-92ba3524b/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
